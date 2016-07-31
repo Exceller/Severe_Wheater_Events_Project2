@@ -1,8 +1,8 @@
 # Severe_Wheater_Events_Project2
 ### Data
 
-The data for this assignment come in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size. YoIt is downloaded from the site:
-•Storm Data [47Mb]
+The data for this assignment come in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size. It is downloaded from the site:
+#### •Storm Data [47Mb]
 
 There is also some documentation of the database available. Here you will find how some of the variables are constructed/defined.
 •National Weather Service Storm Data Documentation
