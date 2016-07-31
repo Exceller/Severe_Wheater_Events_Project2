@@ -37,6 +37,6 @@ The report is written to provide basis for decision to prioritize respurces for 
 
 ### Publishing  
 
-The analysis is oublished to RPubs.com. 
+The analysis is published to RPubs.com. 
 
 The URL of the document is submitted to Coursera.
