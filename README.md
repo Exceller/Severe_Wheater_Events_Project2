@@ -21,16 +21,16 @@ The data analysis addresses the following questions:
 The report is written to provide basis for decision to prioritize respurces for different types of events without making any specific recommendations.
 
 ### Document Layout
-##### •Language: the document is written in English.
+##### • Language: the document is written in English.
 
-##### •Title: the document's title indicates the data analysis 
+##### • Title: the document's title indicates the data analysis 
 
-##### •Synopsis: Immediately after the title, there is a synopsis which describes and summarizes the analysis in at most 10 complete sentences
+##### • Synopsis: Immediately after the title, there is a synopsis which describes and summarizes the analysis in at most 10 complete sentences
 
-##### •The Data Processing section describes (in words and code) how the data were loaded into R and processed for analysis. The analysis starts from the raw CSV file containing the data. No preprocessing outside the document
+##### • The Data Processing section describes (in words and code) how the data were loaded into R and processed for analysis. The analysis starts from the raw CSV file containing the data. No preprocessing outside the document
 
-##### •The Results section in which the results are presented
+##### • The Results section in which the results are presented
 
 ##### • The analysis has three figures
 
-##### •All the code for the work is in the analysis document. 
+##### • All the code for the work is in the analysis document. 
