@@ -34,3 +34,9 @@ The report is written to provide basis for decision to prioritize respurces for 
 ##### • The analysis has three figures
 
 ##### • All the code for the work is in the analysis document. 
+
+### Publishing  
+
+The analysis is oublished to RPubs.com. 
+
+The URL of the document is submitted to Coursera.
