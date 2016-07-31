@@ -16,7 +16,7 @@ The basic goal of this assignment is to explore the NOAA Storm Database and answ
 The data analysis addresses the following questions:
 
 ##### 1. Across the United States, which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?
-##### 2.Across the United States, which types of events have the greatest economic consequences?
+##### 2. Across the United States, which types of events have the greatest economic consequences?
 
 The report is written to provide basis for decision to prioritize respurces for different types of events without making any specific recommendations.
 
