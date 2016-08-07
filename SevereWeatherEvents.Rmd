@@ -17,11 +17,11 @@
 
 ### 2.1. Data
 
-#### The data for this assignment was provided in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size. The data was downloaded from the Coursera website using  PeaZip for bZip2 algorithm: Storm Data [47Mb] There was also documentation of the database available. 
+#### The data for this assignment was provided in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size. The data was downloaded from the Coursera website using  PeaZip for bZip2 algorithm: [Storm Data [47Mb]]. Additional documentation of the database was also available here: 
 
-### National Weather Service Storm Data Documentation
+#### National Weather Service Storm Data Documentation
 
-### National Climatic Data Center Storm Events FAQ
+#### National Climatic Data Center Storm Events FAQ
 
 ### 2.2. Assigment
 
@@ -35,7 +35,7 @@
 
 #### 2.3.1. Loading the Data
 
-#### The data was downloaded from the above mentioned website and saved on my computer. Then it was loaded on the R using the following code:
+#### The data was downloaded from the above mentioned website and saved on my computer. Then it was loaded into R using the following code:
 
 #### Loading into R:
 
@@ -124,7 +124,6 @@ injury <- aggregate(INJURIES ~ EVTYPE, data, FUN = sum)
 propdmg <- aggregate(PROPDMGVAL ~ EVTYPE, data, FUN = sum)
 cropdmg <- aggregate(CROPDMGVAL ~ EVTYPE, data, FUN = sum)
 
-#### Figure 1. Severe Weather Effect on Human Lives
 
 # Listing  events with highest fatalities
 fatal8 <- fatal[order(-fatal$FATALITIES), ][1:8, ]
@@ -137,7 +136,8 @@ barplot(injury8$INJURIES, las = 3, names.arg = injury8$EVTYPE, main = "Events Ca
         ylab = "Number of injuries", col = "dark blue") 
         # Finding events with highest property damage
 propdmg8 <- propdmg[order(-propdmg$PROPDMGVAL), ][1:8, ]
-#### Figure 2. Severe Weather Effect on Property and Crop
+
+#### Figure 1. Severe Weather Effect on Human Lives
 
 # Finding events with highest crop damage
 cropdmg8 <- cropdmg[order(-cropdmg$CROPDMGVAL), ][1:8, ]
@@ -148,3 +148,6 @@ barplot(propdmg8$PROPDMGVAL/(10^9), las = 3, names.arg = propdmg8$EVTYPE,
 barplot(cropdmg8$CROPDMGVAL/(10^9), las = 3, names.arg = cropdmg8$EVTYPE, 
         main = "Events Causing Highest Crop Damage", ylab = "Damage Cost ($ billions)", 
         col = "darkblue")
+        
+#### Figure 2. Severe Weather Effect on Property and Crop
+        
